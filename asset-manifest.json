@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-books/static/css/main.7626d64b.css",
+    "main.js": "/react-books/static/js/main.3a365b32.js",
+    "static/media/book-main.jpg": "/react-books/static/media/book-main.f32cca1ead2cb19719b6.jpg",
+    "static/media/exit.svg": "/react-books/static/media/exit.ddec499f795d99da2af9813bfa4795ee.svg",
+    "static/media/book-logo.svg": "/react-books/static/media/book-logo.3243aaf5936a36c59a037182f67e6587.svg",
+    "static/media/cart-check.svg": "/react-books/static/media/cart-check.11e6bb0e7dfb9cd91c1477ecc78c4fda.svg",
+    "index.html": "/react-books/index.html",
+    "static/media/cart.svg": "/react-books/static/media/cart.4a80da64ab0da7ba60f50f93aad5579e.svg",
+    "static/media/favorites.svg": "/react-books/static/media/favorites.9d6c71a15e7e0799820902ea501307e3.svg",
+    "static/media/crest.svg": "/react-books/static/media/crest.24e8cf640440fae8ffe04dedb7f3d66f.svg",
+    "static/media/heart-active.svg": "/react-books/static/media/heart-active.8fd9d0ab2ef41239b1696aa9e5e436b2.svg",
+    "static/media/plus.svg": "/react-books/static/media/plus.94d1b2795c296660bcae502ba041107b.svg",
+    "main.7626d64b.css.map": "/react-books/static/css/main.7626d64b.css.map",
+    "main.3a365b32.js.map": "/react-books/static/js/main.3a365b32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7626d64b.css",
+    "static/js/main.3a365b32.js"
+  ]
+}
