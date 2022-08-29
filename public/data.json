@@ -1,0 +1,103 @@
+{
+
+
+"collections": [
+  {
+    "id": 1,
+    "category": 1,
+    "name": "Что бы ни случилось | Глиори Деби",
+    "price": 347,
+    "image": "https://cdn1.ozone.ru/multimedia/wc1000/1019823247.jpg"
+  },
+  {
+    "id": 2,
+    "category": 1,
+    "name": "Герои-зверята",
+    "price": 215,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-i/wc1000/6243050166.jpg"
+      
+  },
+  {
+    "id": 3,
+    "category": 1,
+    "name": "101 Далматинец | Смит Доди",
+    "price": 412,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-9/wc1000/6062363133.jpg"
+  },
+  {
+    "id": 4,
+    "category": 1,
+    "name": "Джордж и код, который не взломать | Хокинг Люси, Хокинг Стивен",
+    "price": 720,
+    "image": "https://cdn1.ozone.ru/multimedia/wc1000/1014628657.jpg"
+  },
+  {
+    "id": 5,
+    "category": 2,
+    "name": "Дорога солнца и тумана | Аттар Лейла",
+    "price": 439,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-8/wc1000/6045440000.jpg"
+  },
+  {
+    "id": 6,
+    "category": 2,
+    "name": "Худшие подруги | Хилл Алекс, Лавринович Ася",
+    "price": 545,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-m/wc1000/6364810450.jpg"
+  },
+  {
+    "category": 3,
+    "name": "Самые красивые сказки | Братья Гримм",
+    "price": 303,
+    "image": "https://cdn1.ozone.ru/multimedia/wc1000/1022648372.jpg"
+  },
+  {
+    "category": 3,
+    "name": "Русские сказки для малышей | Булатов Михаил, Толстой Алексей Николаевич",
+    "price": 310,
+    "image": "https://cdn1.ozone.ru/multimedia/wc1000/1009602660.jpg"
+  },
+  {
+    "category": 3,
+    "name": "Книга-подарок: В стране сказок. Сборник сказок и рассказов русских писателей. | Аверин Олег, Степанов В.",
+    "price": 333,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-e/wc1000/6094981334.jpg"
+  },
+  {
+    "category": 4,
+    "name": "Введение в психоанализ | Фрейд Зигмунд",
+    "price": 175,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-1/wc1000/6152090389.jpg"
+  },
+  {
+    "category": 4,
+    "name": "Искусство любить | Фромм Эрих",
+    "price": 269,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-b/wc1000/6095000267.jpg"
+  },
+  {
+    "category": 4,
+    "name": "Теория Всего | Хокинг Стивен",
+    "price": 326,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-x/wc1000/6054779289.jpg"
+  },
+  {
+    "category": 5,
+    "name": "Удивительный Человек-паук. Первое появление Карнажа | Микелайни Дэвид",
+    "price": 296,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-q/wc1000/6147831650.jpg"
+  },
+  {
+    "category": 5,
+    "name": "Гравити Фолз. Графический роман. Вып. 1 | Хирш Алекс",
+    "price": 582,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-y/wc1000/6374483482.jpg"
+  },
+  {
+    "category": 5,
+    "name": "Рик и Морти представляют: Огурчик Рик | Доусон Делайла",
+    "price": 262,
+    "image": "https://cdn1.ozone.ru/s3/multimedia-s/wc1000/6079909660.jpg"
+  }
+]
+}

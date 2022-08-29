@@ -1,0 +1,11 @@
+.favorite {
+  h1 {
+    margin: 40px 0 30px 0;
+    @include setting-font(#000, 20px, 700);
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

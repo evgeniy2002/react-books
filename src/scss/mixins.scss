@@ -1,0 +1,29 @@
+@mixin setting-font($color, $size, $weight) {
+  font: {
+    family: "Montserrat", sans-serif;
+    size: $size;
+    weight: $weight;
+  }
+  color: $color;
+}
+
+@mixin gradient($deg, $color1, $opacity1, $color2, $opacity2) {
+  background: linear-gradient($deg, $color1 $opacity1, $color2 $opacity2);
+}
+
+@mixin delay($seconds) {
+  transition: all $seconds;
+  -webkit-transition: all $seconds;
+  -moz-transition: all $seconds;
+  -ms-transition: all $seconds;
+  -o-transition: all $seconds;
+}
+
+@mixin border($heightBorder, $colorBorder, $radiusBorder) {
+  border: $heightBorder solid $colorBorder;
+  border-radius: $radiusBorder;
+  -webkit-border-radius: $radiusBorder;
+  -moz-border-radius: $radiusBorder;
+  -ms-border-radius: $radiusBorder;
+  -o-border-radius: $radiusBorder;
+}

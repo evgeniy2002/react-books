@@ -1,0 +1,75 @@
+@import "../mixins.scss";
+
+.header {
+  position: relative;
+
+  &-row {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+  }
+  &-logo {
+    display: inline-block;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &-search {
+    width: 400px;
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.15s ease-in-out;
+
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    @include setting-font(#474747, 12px, 500);
+  }
+  &-info {
+    display: flex;
+  }
+  &-cart {
+    position: relative;
+    cursor: pointer;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    // span {
+    //   padding: 0 0 0 10px;
+    //   @include setting-font(#000, 14px, 700);
+    // }
+    &::after {
+      content: "";
+      position: absolute;
+      width: 1;
+    }
+    &__count {
+      position: absolute;
+      background-color: red;
+      left: 10px;
+      top: -10px;
+      padding: 2px 5px;
+      @include border(0, none, 10px);
+      @include setting-font(#fff, 10px, 700);
+    }
+    &__price {
+      padding: 0 0 0 10px;
+      @include setting-font(#000, 14px, 700);
+    }
+  }
+  &-favorites {
+    position: relative;
+    margin: 0 15px 0 0;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

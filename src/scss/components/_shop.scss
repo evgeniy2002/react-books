@@ -1,0 +1,173 @@
+@import "../mixins.scss";
+.shop {
+  &-tags {
+    margin: 10px 0 20px 0;
+    display: flex;
+    background: #eff3f6;
+    flex-wrap: wrap;
+
+    // padding: 15px 0 0 0;
+    @include border(0, none, 5px);
+    li {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      @include setting-font(#000, 14px, 500);
+      // margin: 0px 15px 15px 15px;
+      padding: 15px;
+
+      // &:hover {
+      //   color: rgb(252, 15, 15);
+      // }
+
+      &.active {
+        color: #dc0a0a;
+      }
+    }
+  }
+  &-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+    &__columns {
+      padding: 0 12px;
+      flex: 0 1 20%;
+      margin: 0 0 20px 0;
+    }
+    &__item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      @include delay(0.3s);
+      &-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        padding: 105px 0;
+
+        img {
+          position: absolute;
+          left: 0;
+          top: 0;
+          max-width: 100%;
+          height: 100%;
+        }
+
+        // &::after {
+        //   content: "";
+        //   position: absolute;
+        //   width: 100%;
+        //   height: 100%;
+        //   left: 0;
+        //   top: 0;
+        //   background-color: rgba(41, 43, 83, 0.145);
+        // }
+        &-favorite {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          left: 0;
+          top: 0;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #fff;
+          border-top-left-radius: 0px;
+          border-top-right-radius: 5px;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          box-shadow: 0 0 15px 0 rgb(27 124 199 / 30%);
+          cursor: pointer;
+          img {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            -webkit-transform: translate(-50%, -50%);
+            -moz-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            -o-transform: translate(-50%, -50%);
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+      &-name {
+        margin: 10px 0 0 0;
+        flex: 1 1 100%;
+        span {
+          cursor: pointer;
+          @include setting-font(#000, 13.5px, 500);
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+          word-break: break-word;
+
+          &:hover {
+            color: #dc0a0a;
+          }
+        }
+      }
+      &-price {
+        flex: 1 1 100%;
+        p {
+          @include setting-font(rgb(129, 115, 115), 12px, 500);
+          margin: 0px 0 3px 0;
+        }
+        span {
+          @include setting-font(#000, 18px, 700);
+        }
+      }
+      &-info {
+        display: flex;
+        align-items: center;
+        margin: 10px 0 0 0;
+      }
+      &-add {
+        background-color: transparent;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      &:hover {
+        transform: translate(0px, -7px);
+        -webkit-transform: translate(0px, -7px);
+        -moz-transform: translate(0px, -7px);
+        -ms-transform: translate(0px, -7px);
+        -o-transform: translate(0px, -7px);
+        @include delay(0.3s);
+      }
+    }
+    h2 {
+      @include setting-font(#000, 18px, 700);
+      padding: 10px;
+    }
+  }
+}
+.pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin: 20px 0 40px 0;
+
+  li {
+    display: inline-block;
+    padding: 10px 17px;
+    background-color: white;
+    // font-size: 18px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    @include setting-font(#000, 16px, 500);
+    &.active {
+      background-color: #474747;
+      color: #fff;
+    }
+  }
+}

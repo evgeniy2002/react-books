@@ -1,0 +1,51 @@
+@import "libs/normalize";
+
+@import "components/all";
+
+.container {
+	position: relative;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	overflow: hidden;
+	// outline: 1px solid red;
+
+	@media (max-width: 769px) {
+		padding: 0 10px;
+	}
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	// overflow: hidden;
+	min-height: 100%;
+}
+.ibg {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.ibg img {
+	display: none;
+}
+.page {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+}
+.main-screen {
+	flex: 1 0 100%;
+	position: relative;
+}
+.main-screen_bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
