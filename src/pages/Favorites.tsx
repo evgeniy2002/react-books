@@ -9,7 +9,7 @@ export const Favorites: React.FC<PropsType> = ({ onClickForItem, onClickForFavor
 
   return (
     <div className="favorite">
-      <h1>Мои закладки книг</h1>
+      <h1>Мои закладки книг 1</h1>
       <div className="favorite__row">
         {favoriteItems &&
           favoriteItems
