@@ -12,6 +12,7 @@ export const Favorites: React.FC<PropsType> = ({ onClickForItem, onClickForFavor
       <h1>Мои закладки</h1>
       <h1>Мои закладки1</h1>
       <h1>Мои закладки2</h1>
+      <p>Тестовый текст на ветку-825</p>
       <div className="favorite__row">
         {favoriteItems &&
           favoriteItems
